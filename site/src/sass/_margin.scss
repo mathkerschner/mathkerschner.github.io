@@ -1,0 +1,38 @@
+@import "media";
+.mb{
+    &-10{
+        margin-bottom: 0.625rem;
+    }
+    &-30{
+        margin-bottom: 1.875rem;
+    }
+    &-60{
+        margin-bottom: 3.9rem;
+    }
+    &-80{
+        margin-bottom: 5rem;
+    }
+    &-96{
+        margin-bottom: 6rem;
+    }
+    &-160{
+        margin-bottom: 10rem;
+        @include sm{
+            margin-bottom: 5rem;
+        }
+    }
+}
+.mt{
+    &-10{
+        margin-top: 0.625rem;   
+    }
+    &-20{
+        margin-top: 1.25rem;
+    }
+    &-30{
+        margin-top: 1.875rem;
+    }
+    &-65{
+        margin-top: 4.0625rem;
+    }   
+}

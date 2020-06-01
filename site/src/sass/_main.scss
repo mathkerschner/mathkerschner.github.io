@@ -1,0 +1,71 @@
+@import "mixin";
+@import "media";
+@import "colors";
+
+#client {
+    div[class^="col-"] {
+        align-self: baseline;
+        margin-bottom: 0.625rem;
+        img {
+            width: 100%;
+        }
+    }
+    @include sm{
+        .col-sm-2{
+            width: 50%;
+        }
+    }
+}
+#start-project {
+    a {
+        transition: all ease-in 0.5s;
+        &:hover {
+            @include gradient-text;
+        }
+    }
+}
+#footer{
+    padding: 44px 0 25px;
+    position: relative;
+    p{
+        margin: 0 0 22px;
+    }
+    .social-footer {
+        display: flex;
+        justify-content: center;
+        margin: 22px 0;
+        li {
+            align-items: flex-end;
+            list-style: none;
+            margin: 0 10px;
+            width: 30px;
+            height: 30px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .copyright{
+        display: inline-flex;
+        font-size: 0.8125rem;
+        margin-bottom: 22px;
+    }
+}
+.btntop{
+    width: 55px;
+    height: 50px;
+    // background: $primarygradient;
+    background: #f8f9fa;
+    border:0;
+    cursor: pointer;
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    transition: ease all .5s;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}

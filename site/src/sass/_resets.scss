@@ -1,0 +1,39 @@
+::selection{
+  background: #F39C12;
+  color: #fff;
+}
+html{scroll-behavior: smooth;}
+html, body{
+    margin:0;
+    padding: 0;
+    font-size:16px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box!important;
+    
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  a{color: inherit;text-decoration: none;}
+  p{margin-bottom: 0.625rem; font-weight: normal;color: #595656;line-height: 1.625rem;}
+  @for $i from 1 through 6 {
+      h#{$i} {
+        margin: 0;padding: 0;
+        font-size: 1rem;
+      }
+  }
+  ul{
+    padding: 0;
+    li{
+      list-style: none;
+      line-height: 2.25rem;
+    }
+  }
+  #gradient-horizontal {
+    --color-stop-1: #f39c12;
+    --color-stop-2: #ff0061;
+  }
