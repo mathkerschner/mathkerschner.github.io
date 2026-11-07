@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181a26" />
+      <stop offset="100%" stop-color="#090a0f" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+  <rect x="12" y="12" width="488" height="488" rx="116" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="6" />
+
+  <!-- Monogram M K -->
+  <g fill="url(#accent)">
+    <!-- M -->
+    <path d="M 88 360 V 152 H 132 L 188 270 L 244 152 H 288 V 360 H 248 V 222 L 200 324 H 176 L 128 222 V 360 Z" />
+    <!-- K -->
+    <path d="M 316 360 V 152 H 356 V 236 L 408 152 H 456 L 398 244 L 462 360 H 412 L 368 276 L 356 292 V 360 Z" />
+  </g>
+
+  <!-- Clean minimal accent element -->
+  <circle cx="302" cy="350" r="9" fill="#60a5fa" />
+</svg>
